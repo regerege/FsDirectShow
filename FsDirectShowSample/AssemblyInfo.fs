@@ -1,18 +1,18 @@
-﻿namespace FsDirectShow
+﻿namespace FsDirectShowSample
 
 open System.Reflection
 open System.Runtime.CompilerServices
 open System.Runtime.InteropServices
 
-// アセンブリの署名
-[<assembly: AssemblyKeyFile("FsDirectShow.snk")>]
+//// アセンブリの署名
+//[<assembly: AssemblyKeyFile("FsDirectShowSample.snk")>]
 
 // アセンブリ情報
-[<assembly: AssemblyTitle("FsDirectShow")>]
+[<assembly: AssemblyTitle("FsDirectShowSample")>]
 [<assembly: AssemblyDescription("DirectShow for FSharp")>]
 [<assembly: AssemblyConfiguration("")>]
 [<assembly: AssemblyCompany("")>]
-[<assembly: AssemblyProduct("FsDirectShow")>]
+[<assembly: AssemblyProduct("FsDirectShowSample")>]
 [<assembly: AssemblyCopyright("Copyright© 2012 regerege  All Rights Reserved.")>]
 [<assembly: AssemblyTrademark("")>]
 //[<assembly: AssemblyCulture("")>]

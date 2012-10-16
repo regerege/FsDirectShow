@@ -2,17 +2,19 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{37bf39e5-042e-44c0-9a5b-9bb675b8e376}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <RootNamespace>FsDirectShow</RootNamespace>
-    <AssemblyName>FsDirectShow</AssemblyName>
+    <ProjectGuid>{f490bbab-d436-41a5-b427-865942bb0343}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>FsDirectShowSample</RootNamespace>
+    <AssemblyName>FsDirectShowSample</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <Name>FsDirectShow</Name>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <Name>FsDirectShowSample</Name>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -20,18 +22,20 @@
     <OutputPath>..\bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>..\bin\Debug\FsDirectShow.XML</DocumentationFile>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DocumentationFile>..\bin\Debug\FsDirectShowSample.XML</DocumentationFile>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <WarningsAsErrors />
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <Tailcalls>true</Tailcalls>
     <OutputPath>..\bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>..\bin\Release\FsDirectShow.XML</DocumentationFile>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DocumentationFile>..\bin\Release\FsDirectShowSample.XML</DocumentationFile>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <WarningsAsErrors />
   </PropertyGroup>
@@ -39,7 +43,10 @@
   <Import Project="$(MSBuildExtensionsPath32)\..\Microsoft F#\v4.0\Microsoft.FSharp.Targets" Condition=" Exists('$(MSBuildBinPath)\Microsoft.Build.Tasks.v4.0.dll')" />
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
-    <None Include="FsDirectShow.snk" />
+    <Compile Include="Program.fs" />
+    <None Include="App.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
