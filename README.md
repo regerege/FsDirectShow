@@ -1,14 +1,12 @@
 # Table of Contents (–ÚŽŸ)
 <ol>
 <li><a href="#Licens">Licens</a></li>
-<li><a href="#readme%E6%97%A5%E6%9C%AC%E8%AA%9E">Readme(“ú–{Œê)
-  <ol>
-    <li><a href="#fsdirectshow%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">FsDirectShow‚É‚Â‚¢‚Ä</a></li>
-  </ol></li>
+<li><a href="#readme%E6%97%A5%E6%9C%AC%E8%AA%9E">Readme(“ú–{Œê)</a>
+<ol><li><a href="#fsdirectshow%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">FsDirectShow‚É‚Â‚¢‚Ä</a></li>
+</ol></li>
 <li><a href="#readmeenglish">Readme(English)</a>
-  <ol>
-    <li><a href="#about-fsdirectshow">About FsDirectShow</a></li>
-  </ol></li>
+<ol><li><a href="#about-fsdirectshow">About FsDirectShow</a></li>
+</ol></li>
 </ol>
 
 #Licens
