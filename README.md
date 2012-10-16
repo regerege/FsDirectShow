@@ -24,6 +24,8 @@ Licensed under Lesser General Public License.  See license.txt for details.
 
 
 # Readme(English)
+English sentence is using [Google Translate](http://translate.google.co.jp/).
+
 ## About FsDirectShow
 
 In order to understand how to use the practice of marshaling & DirectShow is a project [DirectShow.NET Library](http://directshownet.sourceforge.net/) was created to port.
