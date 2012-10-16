@@ -1,6 +1,4 @@
 # Table of Contents (目次)
-
-ちょっとテスト
 <ol>
 <li><a href="#Licens">Licens</a></li>
 <li><a href="#readme%E6%97%A5%E6%9C%AC%E8%AA%9E">Readme(日本語)
@@ -14,18 +12,18 @@
 </ol>
 
 #Licens
-
 Licensed under Lesser General Public License.  See license.txt for details.
 
-# Readme(日本語)
+<hr/>
 
+# Readme(日本語)
 ## FsDirectShowについて
 
 マーシャリングの練習＆DirectShowの使い方を理解するために、[DirectShow.NET Library](http://directshownet.sourceforge.net/)を移植するために作成したプロジェクトです。
 
+<hr/>
 
 # Readme(English)
-
 ## About FsDirectShow
 
 In order to understand how to use the practice of marshaling & DirectShow is a project [DirectShow.NET Library](http://directshownet.sourceforge.net/) was created to port.
