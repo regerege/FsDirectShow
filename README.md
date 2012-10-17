@@ -9,6 +9,8 @@
 </ol></li>
 </ol>
 
+<hr/>
+
 #Licens
 Licensed under Lesser General Public License.  See license.txt for details.
 
@@ -19,9 +21,7 @@ Licensed under Lesser General Public License.  See license.txt for details.
 
 マーシャリングの練習＆DirectShowの使い方を理解するために、[DirectShow.NET Library](http://directshownet.sourceforge.net/)を移植するために作成したプロジェクトです。
 
-
 <hr/>
-
 
 # Readme(English)
 English sentence is using [Google Translate](http://translate.google.co.jp/).

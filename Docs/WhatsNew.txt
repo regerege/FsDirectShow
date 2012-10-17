@@ -1,0 +1,10 @@
+-----------------------------------------------------------------
+V 0.0.1.5659 Original release (2012-10-18)
+
+1 enumes defined
+3 Interfaces defined
+1 Interfaces tested
+1 Modules defined
+2 Helper defined
+
+9 Samples

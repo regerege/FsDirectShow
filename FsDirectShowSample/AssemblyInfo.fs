@@ -1,7 +1,7 @@
 ﻿namespace FsDirectShowSample
 
+open System
 open System.Reflection
-open System.Runtime.CompilerServices
 open System.Runtime.InteropServices
 
 //// アセンブリの署名
@@ -12,15 +12,20 @@ open System.Runtime.InteropServices
 [<assembly: AssemblyDescription("DirectShow for FSharp")>]
 [<assembly: AssemblyConfiguration("")>]
 [<assembly: AssemblyCompany("")>]
+#if DEBUG
+[<assembly: AssemblyProduct("FsDirectShowSample-Debug")>]
+#else
 [<assembly: AssemblyProduct("FsDirectShowSample")>]
-[<assembly: AssemblyCopyright("Copyright© 2012 regerege  All Rights Reserved.")>]
+#endif
+[<assembly: AssemblyCopyright("GNU Lesser General Public License v2.1")>]
 [<assembly: AssemblyTrademark("")>]
 //[<assembly: AssemblyCulture("")>]
 
-[<assembly: ComVisible(false)>] 
+[<assembly: ComVisible(false)>]
+[<assembly: CLSCompliant(true)>]
 
-[<assembly: Guid("4E8918C7-B4E4-4900-8B45-54C19D26E206")>]
+[<assembly: Guid("468E9D7A-CFC8-41AA-98ED-B867E872083E")>]
 
-[<assembly: AssemblyVersion("0.0.*.*")>]
-[<assembly: AssemblyFileVersion("0.0.*.*")>]
+[<assembly: AssemblyVersion("0.0.1.*")>]
+[<assembly: AssemblyFileVersion("0.0.1.*")>]
 ()
