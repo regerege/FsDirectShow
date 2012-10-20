@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{BB3C34F7-D
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsDirectShowSample", "FsDirectShowSample\FsDirectShowSample.fsproj", "{F490BBAB-D436-41A5-B427-865942BB0343}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsDirectShowTest", "FsDirectShowTest\FsDirectShowTest.fsproj", "{97549AFE-E3C9-443A-81CA-A413DF6BF434}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,16 @@ Global
 		{F490BBAB-D436-41A5-B427-865942BB0343}.Release|Mixed Platforms.Build.0 = Release|x86
 		{F490BBAB-D436-41A5-B427-865942BB0343}.Release|x86.ActiveCfg = Release|x86
 		{F490BBAB-D436-41A5-B427-865942BB0343}.Release|x86.Build.0 = Release|x86
+		{97549AFE-E3C9-443A-81CA-A413DF6BF434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97549AFE-E3C9-443A-81CA-A413DF6BF434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97549AFE-E3C9-443A-81CA-A413DF6BF434}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{97549AFE-E3C9-443A-81CA-A413DF6BF434}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{97549AFE-E3C9-443A-81CA-A413DF6BF434}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{97549AFE-E3C9-443A-81CA-A413DF6BF434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97549AFE-E3C9-443A-81CA-A413DF6BF434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97549AFE-E3C9-443A-81CA-A413DF6BF434}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{97549AFE-E3C9-443A-81CA-A413DF6BF434}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{97549AFE-E3C9-443A-81CA-A413DF6BF434}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
