@@ -30,7 +30,7 @@ type DsDevice(moniker:IMoniker) =
             let bagObj = moniker.BindToStorage(null, null, bagId)
             try
                 let bag = unbox<IPropertyBag>(bagObj)
-                let  v = ref null
+                let v = ref null
                 let hr = bag.Read(name, v, IntPtr.Zero)
                 DsError.ThrowExceptionForHR hr
                 match !v with

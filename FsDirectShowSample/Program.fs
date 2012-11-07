@@ -67,10 +67,9 @@ cats
     c |> GetDevices (fun dev ->
         setIndent 1
         trace <| sprintf "%A" (new System.String('-', 50))
-        trace <| sprintf "ClassID: %A" dev.ClassID
-        trace <| sprintf "DevicePath: %A" dev.DevicePath
-        trace <| sprintf "Mon: %A" dev.Moniker
+//        trace <| sprintf "ClassID: %A" dev.ClassID
+//        trace <| sprintf "DevicePath: %A" dev.DevicePath
+//        trace <| sprintf "Mon: %A" dev.Moniker
         trace <| sprintf "Name: %A" dev.Name
         trace <| sprintf ""
         ))
-
